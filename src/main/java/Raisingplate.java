@@ -2,8 +2,10 @@ import org.abstractica.javacsg.Geometry3D;
 import org.abstractica.javacsg.JavaCSG;
 
 public class Raisingplate extends Material {
-    public Raisingplate(double length) {
-        super(5, length * 20, 10);
+
+
+    public Raisingplate(double length, double width, double height) {
+        super(width, length * 20, height);
     }
 
     @Override
@@ -24,7 +26,7 @@ public class Raisingplate extends Material {
 
         stop1 = csg.translate3DY(translateAmount * -1).transform(stop1);
 
-        // Postitive end
+        // Positive end
         Geometry3D stop2 = csg.box3D(stopWidth, stopLength, this.getHeight(), false);
 
         stop2 = csg.translate3DY(translateAmount).transform(stop2);
