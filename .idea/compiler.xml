@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JavaMavenProjectTemplate" />
         <module name="JavaCSGTemplate" />
+        <module name="Fog-Carport-3D" />
       </profile>
     </annotationProcessing>
   </component>

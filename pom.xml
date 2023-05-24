@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.abstractica</groupId>
-    <artifactId>AbstracticaProjectTemplate</artifactId>
+    <groupId>dat</groupId>
+    <artifactId>Fog-Carport-3D</artifactId>
     <version>1.0.0</version>
 
     <properties>
@@ -22,10 +22,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>dat</groupId>
-            <artifactId>Fog-Carport-3D</artifactId>
+            <groupId>com.github.abstractica-org</groupId>
+            <artifactId>JavaCSG</artifactId>
             <!--suppress MavenModelInspection -->
-            <version>1.0-SNAPSHOT</version>
+            <version>main-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
